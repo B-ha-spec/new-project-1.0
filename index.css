@@ -8,7 +8,7 @@
 body {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
-    color: white;
+    color: rgb(3, 2, 2);
     font-size: 16px
 }
 
@@ -21,8 +21,8 @@ img {
 }
 
 .wrapper {
-    background: #EEAECA;
-    background: radial-gradient(circle, rgba(238, 174, 202, 1) 57%, rgba(148, 187, 233, 1) 100%);
+    background: #ffffff;
+    background: linear-gradient(266deg, rgba(255, 255, 255, 1) 0%, rgba(144, 214, 185, 1) 79%);
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -44,6 +44,7 @@ header .logo {
     text-transform: uppercase;
     font-size: 29px;
     font-weight: 800;
+    color: #ff0000;
 }
 
 header nav {
@@ -64,7 +65,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #fff;
+    color: #000000;
 }
 
 header nav ul li.active::after {
@@ -143,7 +144,8 @@ header nav ul li.btn a:hover {
 }
 
 .trending {
-    padding: 150px;
+    padding: 200px;
+    margin-left: auto;
 }
 
 .trending h3 {
@@ -177,7 +179,7 @@ header nav ul li.btn a:hover {
     display: inline-block;
     margin-right: 10px;
     text-align: center;
-    padding-right: 100px;
+    padding-right: 30px;
     margin-top: 100px;
 }
 
@@ -186,8 +188,12 @@ header nav ul li.btn a:hover {
 }
 
 .price {
-    color: #fff;
+    color: #000000;
     font-size: 16px;
     margin-top: 5px;
+    font-weight: bold;
+}
+
+.info {
     font-weight: bold;
 }
